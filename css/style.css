@@ -1,0 +1,63 @@
+body{
+    background-color:rgb(140, 190, 190);
+}
+
+.btn {
+    display: inline-block;  
+    padding: 10px 20px; /* inside a contatiner, between the content and the border */
+    background-color: #050d20;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;  /*flexbox in a row*/
+    padding: 10px 20px;
+    justify-content: flex-end;  /*Align buttons to the right*/
+    background-color: #2f2b2bd6;
+    margin-top: 20px;
+    margin-right: 40px;
+    gap: 10px;  /*Spave between buttons*/
+}
+
+.title {
+    font-size: 55px;
+    font-weight: bold;;
+}
+
+.image-text-container {
+    display: flex;
+    align-items: center;  /*Vertically center the items*/
+    gap: 20px;  /*Space between image and text*/
+}
+.image-text-container img {
+    max-width: 300px;  /*Limit the image size*/
+    height: auto;
+    border-radius: 10px;
+}
+.image-text-container .text {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    background-color: #2f2b2b57;
+    margin-top: 250px;
+    
+}
+
+
+@media (max-width: 600px) { 
+  .image-text-container {
+    flex-direction: column;  /* stacks the image above the text */
+    text-align: center;      /* centers text for better look */
+  }
+  .image-text-container img {
+    width: 100%;             /* makes the image fit smaller screens */
+  }
+} 
