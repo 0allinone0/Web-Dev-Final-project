@@ -3,8 +3,8 @@ const heroText = document.getElementById('heroText');
 
 // Array of images and text
 const slides = [
-  { img: '../images/dinning.jpg', text: 'A place to explore,<br>with space to grow.' },
-  { img: '../images/football_pic.jpg', text: 'Discover new ideas,<br>and lifelong friends.' },
+  { img: '../images/dinning.jpg', text: 'Enjoy Food,<br>with friends.' },
+  { img: '../images/football_pic.jpg', text: 'Keep your body healthy,<br>with lifelong friends.' },
   { img: '../images/homecoming_logo.jpg', text: 'Your journey starts<br>right here.' }
 ];
 
